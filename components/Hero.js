@@ -8,10 +8,10 @@ export default function Hero() {
           Cash Flow Made Easy for Creators
         </h1>
 
-        <h2 className = {herostyles["hero_frame--h1"]}> 
+        <h3 className = {herostyles["hero_frame--h1"]}> 
           Our cutting-edge technology provides comprehensive business analytics driven by AI, empowering businesses to expand and elevate profitability
           to unprecedented levels 
-        </h2> 
+        </h3> 
         <div className={herostyles.hero__interactive}>
           <div className={herostyles.email__form}>
             <input

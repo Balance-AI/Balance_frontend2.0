@@ -18,7 +18,6 @@ export default function Footer() {
               />
             </figure>
             <span className={footerstyles["footer__logo--popper"]}>
-              Top
               <FontAwesomeIcon icon={faArrowUp} />{" "}
             </span>
           </a>
