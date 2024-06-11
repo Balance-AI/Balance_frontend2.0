@@ -7,11 +7,6 @@ export default function Hero() {
         <h1 className={herostyles["hero__frame--h1"]}>
           Cash Flow Made Easy for Creators
         </h1>
-
-        <h3 className = {herostyles["hero_frame--h1"]}> 
-          Our cutting-edge technology provides comprehensive business analytics driven by AI, empowering businesses to expand and elevate profitability
-          to unprecedented levels 
-        </h3> 
         <div className={herostyles.hero__interactive}>
           <div className={herostyles.email__form}>
             <input
@@ -25,7 +20,9 @@ export default function Hero() {
               Get Started
             </button>
           </div>
-          <button className={`${herostyles["hero__buttons--learn"]} bai__button--hover bai__button--focus`}>
+          <button
+            className={`${herostyles["hero__buttons--learn"]} bai__button--hover bai__button--focus`}
+          >
             Learn More
           </button>
         </div>
