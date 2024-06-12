@@ -12,13 +12,13 @@ export default function Supported() {
   return (
     <section className={supportedstyles.supported}>
       <div className="row">
-        <div className="container">
-          <h1>
+        <div className={`${supportedstyles.supported__container} container`}>
+          <h1 className={supportedstyles.supported__h1}>
             The Only Analytics Application That Centralizes Data Across All
             platforms!
           </h1>
           <h3>Centralize All Your Financial & Marketing Data</h3>
-          <h2>We Support</h2>
+          <h2 className={supportedstyles.supported__h2}>We Support</h2>
           <div className={supportedstyles.supported__logos}>
             <figure className={supportedstyles.supported__logo}>
               Youtube <FontAwesomeIcon icon={faYoutube} />
