@@ -1,0 +1,18 @@
+/* .supported {
+
+} */
+
+.supported__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 24px 0;
+    max-width: 840px;
+}
+
+.supported__logo {
+    width: calc(100% / 3);
+    font-size: 30px;
+    text-align: center;
+}
+
