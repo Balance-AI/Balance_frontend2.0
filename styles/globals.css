@@ -65,6 +65,6 @@ ul {
   /* scale: .975; */
 }
 
-.logo-invert {
+.logo-invert { /* logo invert for bai */
   filter: invert(1);
 }

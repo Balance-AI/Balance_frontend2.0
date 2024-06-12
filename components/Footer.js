@@ -18,40 +18,20 @@ export default function Footer() {
               />
             </figure>
             <span className={footerstyles["footer__logo--popper"]}>
+              Top
               <FontAwesomeIcon icon={faArrowUp} />{" "}
             </span>
           </a>
           <div className={footerstyles["footer__social--list"]}>
-            <a
-              href="https://github.com/MahdiT54"
-              target="_blank"
-              className={footerstyles["footer__social--link"]}
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mahditanzim/"
-              target="_blank"
-              className={footerstyles["footer__social--link"]}
-            >
-              LinkedIn
-            </a>
-            <a
-              href="#"
-              onclick="toggleModal()"
-              className={footerstyles["footer__social--link"]}
-            >
-              Contact
-            </a>
-            <a
-              href="./assets/MahdiTanzimResume.pdf"
-              target="_blank"
-              className={footerstyles["footer__social--link"]}
-            >
-              Resume
-            </a>
+            <Link href="/about" className={footerstyles["footer__social--link"]}>About</Link>
+            <Link href="/contact" className={footerstyles["footer__social--link"]}>Contact</Link>
+            <Link href="/technology" className={footerstyles["footer__social--link"]}>Technology</Link>
+            <Link href="/" className={footerstyles["footer__social--link"]}>Newsletter</Link>
+            
           </div>
-          <div className={footerstyles.footer__copyright}>Copyright © 2024 BalanceAI</div>
+          <div className={footerstyles.footer__copyright}>
+            Copyright © 2024 BalanceAI
+          </div>
         </div>
       </div>
     </footer>

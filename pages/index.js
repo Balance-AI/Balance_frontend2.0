@@ -1,19 +1,11 @@
 import Hero from "@/components/Hero";
-import Body from "@/components/Body"; 
-import Image from "Next/Image"; 
-
-
+import Supported from "@/components/Supported";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Body /> 
-
-      
-
-      
-
+      <Supported />
     </>
   );
 }
