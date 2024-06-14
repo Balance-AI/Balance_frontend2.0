@@ -11,11 +11,11 @@ export default function Analytics() {
             Projected Revenue Forecast Financial Metrics
           </figure>
           <figure className={analyticsstyles["analytics__img--wrap"]}>
-            <img src="/analyticsimg2.png" alt="Description of Image" /> AI
+            <img src="/analyticsimg2.svg" alt="Description of Image" /> AI
             Marketing Metrics
           </figure>
           <figure className={analyticsstyles["analytics__img--wrap"]}>
-            <img src="/analyticsimg3.png" alt="Description of Image" /> AI
+            <img src="/analyticsimg3.svg" alt="Description of Image" /> AI
             Projected Revenue Forecast
           </figure>
         </div>
