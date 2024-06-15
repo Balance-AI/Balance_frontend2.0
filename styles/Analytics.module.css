@@ -31,7 +31,7 @@
 }
 
 .analytics__img--wrap:hover img {
-  top: -100%; /* Adjust this value based on the height of your image */
+  top: -170%; /* Adjust this value based on the height of your image */
 }
 
 .dashboard__wrap {
