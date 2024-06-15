@@ -50,12 +50,13 @@ ul {
   margin: 0 auto;
 }
 
-.grey {
-  color: darkgrey;
-}
 
 .container {
   padding: 96px 0;
+}
+
+.grey {
+  color: darkgrey;
 }
 
 .bai__button--hover {

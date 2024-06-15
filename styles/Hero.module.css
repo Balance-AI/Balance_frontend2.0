@@ -3,26 +3,46 @@
   padding-top: 80px;
   background: url("../public/herobg.jpg") no-repeat top center/cover;
   max-height: 800px;
-}/*  primary use of this section class is for down-padding the nav-bar+ */
+}
+
+.hero__row {
+  height: 100%;
+}
 
 .hero__frame {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  max-width: 1280px;
+  height: inherit;
+}
+
+.hero__left {
+  width: 50%;
+}
+
+.hero__right {
+  width: 50%;
+  padding-left: 12px;
+}
+
+.hero__right--img {
   margin: 0 auto;
+  width: 250px;
+}
+
+.hero__right--img img {
   height: 100%;
 }
 
 .hero__frame--h1 {
   color: #8e98ac;
-  text-align: center;
+  /* text-align: left; */
   font-size: 82px;
   font-weight: 500;
 }
 
 .hero__interactive {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   max-width: 440px;
