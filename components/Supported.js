@@ -14,10 +14,12 @@ export default function Supported() {
       <div className="row">
         <div className={`${supportedstyles.supported__container} container`}>
           <h1 className={supportedstyles.supported__h1}>
-            The Only Analytics Application That Centralizes Data Across All
-            platforms!
+            The <span className="grey">Only</span> Analytics Application That
+            Centralizes Data Across All Platforms
           </h1>
-          <h3>Centralize All Your Financial & Marketing Data</h3>
+          <h3 className={supportedstyles.supported__h3}>
+            Centralize All Your Financial & Marketing Data
+          </h3>
           <h2 className={supportedstyles.supported__h2}>We Support</h2>
           <div className={supportedstyles.supported__logos}>
             <figure
@@ -30,13 +32,19 @@ export default function Supported() {
             >
               Meta <FontAwesomeIcon icon={faMeta} />
             </figure>
-            <figure className={`${supportedstyles.supported__logo} bai__button--hover`}>
+            <figure
+              className={`${supportedstyles.supported__logo} bai__button--hover`}
+            >
               Tiktok <FontAwesomeIcon icon={faTiktok} />
             </figure>
-            <figure className={`${supportedstyles.supported__logo} bai__button--hover`}>
+            <figure
+              className={`${supportedstyles.supported__logo} bai__button--hover`}
+            >
               Google <FontAwesomeIcon icon={faGoogle} />
             </figure>
-            <figure className={`${supportedstyles.supported__logo} bai__button--hover`}>
+            <figure
+              className={`${supportedstyles.supported__logo} bai__button--hover`}
+            >
               Shopify <FontAwesomeIcon icon={faShopify} />
             </figure>
           </div>

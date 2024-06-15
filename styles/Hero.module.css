@@ -1,28 +1,48 @@
 .hero {
   height: 100vh;
   padding-top: 80px;
+  background: url("../public/herobg.jpg") no-repeat top center/cover;
+  max-height: 800px;
+}
+
+.hero__row {
+  height: 100%;
 }
 
 .hero__frame {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  max-height: 800px;
+  height: inherit;
+}
+
+.hero__left {
+  width: 50%;
+}
+
+.hero__right {
+  width: 50%;
+  padding-left: 12px;
+}
+
+.hero__right--img {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.hero__right--img img {
   height: 100%;
-  background: url("../public/herobg.jpg") no-repeat top center/cover;
 }
 
 .hero__frame--h1 {
   color: #8e98ac;
-  text-align: center;
-  font-size: 2.1em;
-  font-weight: 300;
-  margin-top: 24px;
-  text-shadow: 0px 6px 10px black;
+  /* text-align: left; */
+  font-size: 82px;
+  font-weight: 500;
 }
 
 .hero__interactive {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   max-width: 440px;
@@ -53,7 +73,7 @@
 
 .email__input::placeholder {
   color: #fff; /* Replace #yourColor with the color you want */
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .email__input:hover {
