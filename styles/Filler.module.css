@@ -1,0 +1,80 @@
+.filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .filler__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px; /* Center content and keep it in the middle */
+    padding: 0 2rem; /* Add padding on left and right sides */
+    margin-bottom: 2rem; /* Add spacing between sections */
+  }
+  
+  @media (min-width: 768px) {
+    .filler__content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .filler__text {
+    flex: 1;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .filler__text {
+      text-align: left;
+      margin-right: 2rem;
+    }
+  }
+  
+  .filler__heading {
+    font-size: 2rem; /* Bigger title */
+    font-weight: bold; /* Bold title */
+    margin-bottom: 1.5rem; /* Increase margin bottom */
+  }
+  
+  .filler__subheading {
+    font-size: 1rem; /* Smaller description */
+    margin-bottom: 1.5rem; /* Increase margin bottom */
+  }
+  
+  .filler__description {
+    font-size: 1rem; /* Smaller description */
+    margin-bottom: 1.5rem; /* Increase margin bottom */
+  }
+  
+  .filler__buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem; /* Add more margin for spacing */
+  }
+  
+  .filler__button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  
+  .filler__imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Add spacing below image on smaller screens */
+  }
+  
+  .filler__image {
+    max-width: 100%;
+    height: auto;
+    width: auto; /* Ensure the image scales properly */
+  }
+  
