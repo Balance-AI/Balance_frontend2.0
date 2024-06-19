@@ -10,13 +10,13 @@ export default function Analytics() {
           </h1>
           <div className={analyticsstyles.dashboard__wrap}>
             <figure className={analyticsstyles["analytics__img--wrap"]}>
-              <img src="/analyticsimg1.svg" alt="Description of Image" />
+              <img src="/analyticsimg1.svg" alt="first image" />
             </figure>
             <figure className={analyticsstyles["analytics__img--wrap"]}>
-              <img src="/analyticsimg2.svg" alt="Description of Image" />
+              <img src="/analyticsimg2.svg" alt="second image" />
             </figure>
             <figure className={analyticsstyles["analytics__img--wrap"]}>
-              <img src="/analyticsimg3.svg" alt="Description of Image" />
+              <img src="/analyticsimg3.svg" alt="third image" />
             </figure>
           </div>
         </div>
