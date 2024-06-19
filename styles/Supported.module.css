@@ -14,8 +14,9 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 48px;
-  max-width: 840px;
-  height: 212px;
+  width: 100%;
+  /* max-width: 840px; */
+  height: 268px;
 }
 
 .supported__logo {
@@ -31,8 +32,18 @@
 
 .supported__h1 {
   margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 60px;
+
+  text-align: center;
 }
 
 .supported__h2 {
-  margin-top: 16px;
+  /* margin-top: 16px; */
+  font-size: xx-large;
+}
+
+.supported__h3 {
+  font-size: 20px;
+  margin: 24px 0;
 }

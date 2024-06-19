@@ -1,3 +1,6 @@
+.analytics {
+}
+
 .analytics__container {
   display: flex;
   flex-direction: column;
@@ -10,14 +13,16 @@
 }
 
 .analytics__img--wrap {
-  width: 400px;
+  width: 350px;
   height: 600px;
   overflow: hidden;
   position: relative;
-  margin: 0 4px;
+  margin: 0 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: -9px 0px 20px 20px #000413;
+  border-radius: 12px;
 }
 
 .analytics__img--wrap img {
@@ -31,7 +36,7 @@
 }
 
 .analytics__img--wrap:hover img {
-  top: -100%; /* Adjust this value based on the height of your image */
+  top: -170%; /* Adjust this value based on the height of your image */
 }
 
 .dashboard__wrap {
