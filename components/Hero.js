@@ -31,8 +31,14 @@ export default function Hero() {
           </div>
           <div className={herostyles.hero__right}>
             <figure className={herostyles["hero__right--img"]}>
-              <img src="/iphone_render2.jpeg" alt="Description of Image" />
+              {/* <img src="/heroiphone.png" alt="Description of Image" /> */}
+              <img src="/heroiphone2.png" alt="Description of Image" />
             </figure>
+            <img
+              className={herostyles.hero__graph}
+              src="/herograph.svg"
+              alt="Description of Image"
+            />
           </div>
         </div>
       </div>
