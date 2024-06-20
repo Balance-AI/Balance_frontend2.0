@@ -62,7 +62,7 @@
 }
 
 .hero__interactive {
-  /* margin: 0 auto; */
+  margin-top: 36px;
   display: flex;
   flex-direction: column;
   max-width: 440px;
