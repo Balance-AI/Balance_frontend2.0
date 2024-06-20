@@ -44,8 +44,7 @@ export default function Filler() {
                 Cutting Edge Analytics
               </h1>
               <h2 className={fillerstyles.filler__subheading}>
-                Understand All Your Business Data Insights Through Our
-                Proprietary Analytics Dashboards, AI Powered Reports & Forecasts
+              With accurate information, track all of your profits from each platform
               </h2>
               <button
                 className={`${fillerstyles["bai__button--filler"]} bai__button bai__button--hover bai__button--focus`}
