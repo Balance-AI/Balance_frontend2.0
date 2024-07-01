@@ -32,8 +32,8 @@
 }
 
 .nav__logo--img {
-  margin-right: 4px;
-  width: 4rem;
+  margin-right: 1rem;
+  width: 3.5rem;
   filter: invert(1);
 }
 
@@ -57,7 +57,7 @@
 }
 
 .nav__button {
-  margin: 15px 10px;
+  margin-left: 10px;
   padding: 8px 20px;
   font-size: 18px;
   font-weight: 500;
