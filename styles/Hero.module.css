@@ -42,16 +42,41 @@
   margin-left: 12px;
 }
 
-.hero__graph {
+.hero__taskbar {
   /* box-shadow: inset 0px 0px 20px 0px #000413; */
   /* filter: blur(0.75px); */
   position: absolute;
-  top: -96px;
+  top: -242px;
   /* bottom: -96px; */
-  right: -108px;
-  width: 100%;
+  right: -164px;
+  width: 775px;
   /* right: -124px; */
   z-index: 2;
+}
+
+.hero__graph1 {
+  position: absolute;
+  z-index: 0;
+  right: -96px;
+  top: 324px;
+  height: 324px;
+}
+
+.hero__graph2 {
+  position: absolute;
+  z-index: 0;
+  right: -154px;
+  top: 320px;
+  width: 260px;
+  /* height: 344px; */
+}
+
+.hero__stats {
+  position: absolute;
+  z-index: -1;
+  left: 32px;
+  top: 502px;
+  width: 724px;
 }
 
 .hero__frame--h1 {

@@ -35,8 +35,23 @@ export default function Hero() {
               <img src="/heroiphone2.png" alt="Description of Image" />
             </figure>
             <img
-              className={herostyles.hero__graph}
+              className={herostyles.hero__taskbar}
+              src="/herotaskbarimg.svg"
+              alt="Description of Image"
+            />
+            <img
+              className={herostyles.hero__graph1}
               src="/herograph.svg"
+              alt="Description of Image"
+            />
+            <img
+              className={herostyles.hero__graph2}
+              src="/herograph2.svg"
+              alt="Description of Image"
+            />
+            <img
+              className={herostyles.hero__stats}
+              src="/herostats.svg"
               alt="Description of Image"
             />
           </div>
