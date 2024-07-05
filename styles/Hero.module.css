@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   padding-top: 80px;
-  background: url("../public/herobg.jpg") no-repeat top center/cover;
+  background: radial-gradient(circle at left top, #0d0d1c, #000000);
   max-height: 800px;
   position: relative;
   z-index: 1;
