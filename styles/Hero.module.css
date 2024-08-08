@@ -1,8 +1,10 @@
 .hero {
   height: 100vh;
   padding-top: 80px;
-  background: url("../public/herobg.jpg") no-repeat top center/cover;
+  background: radial-gradient(circle at left top, #0d0d1c, #000000);
   max-height: 800px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero__row {
@@ -21,17 +23,60 @@
 }
 
 .hero__right {
+  position: relative;
   width: 50%;
-  padding-left: 12px;
+  /* padding-left: 12px; */
 }
 
 .hero__right--img {
-  margin: 0 auto;
-  width: 250px;
+  z-index: 3;
+  position: relative;
+  /* width: 250px;
+  display: flex; */
 }
 
 .hero__right--img img {
-  height: 100%;
+  box-shadow: 1px 7px 20px 2px #000413;
+  border-radius: 45px;
+  max-width: 250px;
+  margin-left: 12px;
+}
+
+.hero__taskbar {
+  /* box-shadow: inset 0px 0px 20px 0px #000413; */
+  /* filter: blur(0.75px); */
+  position: absolute;
+  top: -242px;
+  /* bottom: -96px; */
+  right: -164px;
+  width: 775px;
+  /* right: -124px; */
+  z-index: 2;
+}
+
+.hero__graph1 {
+  position: absolute;
+  z-index: 0;
+  right: -96px;
+  top: 324px;
+  height: 324px;
+}
+
+.hero__graph2 {
+  position: absolute;
+  z-index: 0;
+  right: -154px;
+  top: 320px;
+  width: 260px;
+  /* height: 344px; */
+}
+
+.hero__stats {
+  position: absolute;
+  z-index: -1;
+  left: 32px;
+  top: 502px;
+  width: 724px;
 }
 
 .hero__frame--h1 {
@@ -42,7 +87,7 @@
 }
 
 .hero__interactive {
-  /* margin: 0 auto; */
+  margin-top: 36px;
   display: flex;
   flex-direction: column;
   max-width: 440px;
