@@ -22,11 +22,6 @@ export default function Hero() {
                   Get Started
                 </button>
               </div>
-              <button
-                className={`${herostyles["hero__buttons--learn"]} bai__button--hover bai__button--focus`}
-              >
-                Learn More
-              </button>
             </div>
           </div>
           <div className={herostyles.hero__right}>
@@ -47,11 +42,6 @@ export default function Hero() {
             <img
               className={herostyles.hero__graph2}
               src="/herograph2.svg"
-              alt="Description of Image"
-            />
-            <img
-              className={herostyles.hero__stats}
-              src="/herostats.svg"
               alt="Description of Image"
             />
           </div>
