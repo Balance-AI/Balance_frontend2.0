@@ -27,6 +27,7 @@ export default function Footer() {
             <Link href="/contact" className={footerstyles["footer__social--link"]}>Contact</Link>
             <Link href="/technology" className={footerstyles["footer__social--link"]}>Technology</Link>
             <Link href="/" className={footerstyles["footer__social--link"]}>Newsletter</Link>
+            <Link href="/tos" className={footerstyles["footer__social--link"]}>Terms of Service</Link>
             
           </div>
           <div className={footerstyles.footer__copyright}>
