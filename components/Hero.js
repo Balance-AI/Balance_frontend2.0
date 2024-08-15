@@ -44,6 +44,7 @@ export default function Hero() {
               src="/herograph2.svg"
               alt="Description of Image"
             />
+            
           </div>
         </div>
       </div>
