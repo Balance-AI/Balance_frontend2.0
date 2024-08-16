@@ -55,13 +55,13 @@
 
 .hero__graph1 {
   position: absolute;
-    z-index: 5;
-    right: 56px;
-    top: 338px;
-    border: 1px solid rgb(247,192,51, .25);
-    border-radius: 8px;
-    width: 276px;
-    box-shadow: 4px 4px 20px 0px black;
+  z-index: 5;
+  right: 56px;
+  top: 338px;
+  border: 1px solid rgb(247, 192, 51, 0.25);
+  border-radius: 8px;
+  width: 276px;
+  box-shadow: 4px 4px 20px 0px black;
 }
 
 .hero__graph2 {
@@ -71,7 +71,7 @@
   top: 340px;
   width: 212px;
   border-radius: 8px;
-  border: 1px solid rgb(247, 192, 51, .25);
+  border: 1px solid rgb(247, 192, 51, 0.25);
 }
 
 .hero__stats {
@@ -80,6 +80,8 @@
   left: 32px;
   top: 502px;
   width: 724px;
+  border-radius: 72px;
+  border: 1px solid rgb(247, 192, 51, 0.25);
 }
 
 .hero__frame--h1 {
