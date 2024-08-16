@@ -26,7 +26,7 @@
 
 .footer__social--list {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   display: flex;
   justify-content: space-around;
   margin: 28px 0;
@@ -37,7 +37,7 @@
 }
 
 .footer__social--link {
-  margin: 12px;
+  margin: 0 12px;
   transition: all 0.1s ease;
 }
 
