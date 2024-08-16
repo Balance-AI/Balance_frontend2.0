@@ -30,10 +30,10 @@ export default function Hero() {
             </div>
           </div>
           <div className={herostyles.hero__right}>
-            <figure className={herostyles["hero__right--img"]}>
+            {/* <figure className={herostyles["hero__right--img"]}> */}
               {/* <img src="/heroiphone.png" alt="Description of Image" /> */}
-              <img src="/heroiphone2.png" alt="Description of Image" />
-            </figure>
+              <img className={`${herostyles["hero__right--img"]}`} src="/heroiphone.png" alt="Description of Image" />
+            {/* </figure> */}
             <img
               className={herostyles.hero__taskbar}
               src="/herotaskbarimg.svg"
