@@ -28,6 +28,7 @@
   width: 100%;
   max-width: 600px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 28px 0;
 }
@@ -54,3 +55,4 @@
 .footer__social--link {
   /* color: white; */
 }
+

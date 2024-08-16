@@ -190,7 +190,8 @@
 /* .hero__buttons--learn:hover {
 } */
 
-@media (min-width: 1024px) {
+@media (max-width: 1280px) {
+  /* laptop media q*/
   .hero__frame--h1 {
     text-align: center;
     font-size: 64px;
@@ -206,5 +207,35 @@
   .hero__stats {
     top: 341px;
     left: -97px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__frame--h1 {
+    font-size: 58px;
+  }
+  .hero__taskbar {
+    right: -401px;
+  }
+  .hero__right--img {
+    right: 116px;
+  }
+  .hero__graph1 {
+    right: -182px;
+  }
+  .hero__graph2 {
+    display: none;
+  }
+  .hero__stats {
+    left: 11px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__right {
+    display: none;
+  }
+  .hero__left {
+    width: 100%;
   }
 }
