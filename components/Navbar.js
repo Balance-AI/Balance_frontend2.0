@@ -60,9 +60,11 @@ return (
       </Link>
     </ul>
     <div className="hidden md:flex space-x-4">
+      <Link href= "/login">
       <button className="px-5 py-2 text-white font-medium border border-white rounded-full bg-opacity-75 hover:bg-white hover:text-gray-800 transition ease-in-out duration-100">
         Login
       </button>
+      </Link>
       <button className="px-5 py-2 text-white font-medium border border-white rounded-full bg-opacity-75 hover:bg-white hover:text-gray-800 transition ease-in-out duration-100">
         Sign Up
       </button>
