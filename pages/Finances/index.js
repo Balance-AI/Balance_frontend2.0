@@ -11,10 +11,10 @@ export default function Finances() {
     </div>
     <div className="flex justify-center space-x-4">
       <button className="bg-yellow-500 text-black px-6 py-2 rounded-lg">Overview</button>
-      <Link href= "/Budgeting"> 
+      <Link href= "/Finances/Budgeting"> 
       <button className="bg-gray-700 text-gray-400 px-6 py-2 rounded-lg">Budgeting</button>
       </Link> 
-      
+
     </div>
     <div className="mt-6 text-center">
       <h3 className="text-4xl font-bold text-yellow-400">$7,528.59</h3>

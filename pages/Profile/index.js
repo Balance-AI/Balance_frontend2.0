@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function profile() {
     return ( 
         <div className="min-h-screen bg-gray-900 text-white">
@@ -27,7 +29,9 @@ export default function profile() {
         <div className="bg-gray-800 p-6 rounded-lg shadow-md mx-4 my-8">
           <div className="flex justify-between">
             <h2 className="text-2xl font-semibold">Finances</h2>
-            <a href="#" className="text-yellow-500">View Financial Metrics</a>
+            <Link href="/Finances">
+                 <p className="text-yellow-500"> View Financial Metrics </p>
+             </Link>
           </div>
           <div className="mt-6">
             <div className="flex space-x-4">

@@ -4,23 +4,32 @@ export default function Hero() {
   return (
     <section className="h-screen pt-20 bg-gradient-to-r from-black to-gray-900 max-h-[800px] relative z-[1]">
   <div className="h-full flex justify-between container mx-auto">
-    <div className="w-1/2">
-      <h1 className="text-gray-400 text-5xl font-medium">Cash Flow Made Easy for Creators</h1>
-      <div className="mt-9 flex flex-col max-w-[440px]">
-        <div className="relative text-center">
-          <input
-            type="text"
-            className="py-5 px-8 w-full rounded-full border-2 border-white bg-black bg-opacity-25 text-white font-medium placeholder-white placeholder-opacity-50 transition-all duration-300 focus:bg-opacity-75 focus:outline-none"
-            placeholder="Your E-mail Address"
-          />
-          <button
-            className="mt-2 mb-2 w-full py-4 text-white font-bold rounded-full border-2 border-white bg-transparent hover:bg-white hover:text-black transition-all duration-300"
-          >
-            Get Started
-          </button>
-        </div>
+  <div
+    className="absolute w-full h-[300px] top-0 left-0 transform -skew-y-12 origin-top-left"
+    style={{
+      background: "linear-gradient(0deg, rgba(192,192,192,1) 29%, rgba(237,201,11,1) 46%, rgba(255,215,0,1) 100%)",
+    }}
+  ></div>
+  <div className="relative w-1/2 mt-16">
+    
+    <h1 className="text-gray-400 text-6xl font-medium leading-snug mb-12">
+      Cash Flow Made Easy for Creators
+    </h1>
+    <div className="mt-9 flex flex-col max-w-[440px]">
+      <div className="relative text-center">
+        <input
+          type="text"
+          className="py-5 px-8 w-full rounded-full border-2 border-white bg-black bg-opacity-25 text-white font-medium placeholder-white placeholder-opacity-50 transition-all duration-300 focus:bg-opacity-75 focus:outline-none"
+          placeholder="Your E-mail Address"
+        />
+        <button
+          className="mt-6 w-full py-4 text-white font-bold rounded-full border-2 border-white bg-transparent hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Get Started
+        </button>
       </div>
     </div>
+  </div>
     <div className="w-1/2 relative">
       <figure className="relative z-10">
         <img
