@@ -1,4 +1,6 @@
 import LoginForm from "../../components/LoginForm";
+import Link from "next/link";
+
 
 
 export default function Login() {
@@ -47,6 +49,7 @@ export default function Login() {
             </div>
       
             {/* Login Button */}
+            
             <button
               type="submit"
               className="w-full py-2 bg-black text-white font-bold rounded-md hover:bg-gray-800 transition-colors"

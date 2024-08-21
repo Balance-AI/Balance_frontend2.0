@@ -65,9 +65,11 @@ return (
         Login
       </button>
       </Link>
+      <Link href= "/signup"> 
       <button className="px-5 py-2 text-white font-medium border border-white rounded-full bg-opacity-75 hover:bg-white hover:text-gray-800 transition ease-in-out duration-100">
         Sign Up
       </button>
+      </Link> 
     </div>
   </div>
 </nav>
