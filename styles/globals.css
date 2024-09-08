@@ -45,6 +45,10 @@ ul {
   list-style: none;
 }
 
+.up-padding {
+  padding-top: 80px;
+}
+
 .row {
   max-width: 1280px;
   padding-left: 24px;

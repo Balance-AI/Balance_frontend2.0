@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from "next/link";
-import logo from "../public/Logo.svg";
-import navstyles from "../styles/Navbar.module.css";
+import logo from "../../public/Logo.svg";
+import navstyles from "../../styles/Navbar.module.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

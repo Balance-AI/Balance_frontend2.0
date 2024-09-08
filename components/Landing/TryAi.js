@@ -1,4 +1,4 @@
-import TryAIstyles from "../styles/TryAI.module.css";
+import TryAIstyles from "../../styles/TryAI.module.css";
 
 export default function TryAi() {
   return (
