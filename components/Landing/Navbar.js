@@ -21,7 +21,7 @@ return (
               className={`${navstyles["nav__logo--img"]} logo-invert`}
               alt=""
             />
-            <h6 className={navstyles["nav__logo--text"]}>BalanceAI</h6>
+            {/* <h6 className={navstyles["nav__logo--text"]}>BalanceAI</h6> */}
           </figure>
         </Link>
         <button className={navstyles.nav__toggle} onClick={toggleMenu}>

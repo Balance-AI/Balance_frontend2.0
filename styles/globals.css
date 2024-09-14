@@ -45,8 +45,8 @@ ul {
   list-style: none;
 }
 
-.up-padding {
-  padding-top: 80px;
+.uplift {
+  margin-top: 40px;
 }
 
 .row {
@@ -88,7 +88,7 @@ ul {
 }
 
 .logo-invert { /* logo invert for bai */
-  filter: invert(1);
+  filter: invert(0);
 }
 
 .align-end {

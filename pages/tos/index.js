@@ -2,7 +2,7 @@ import tosstyles from "../../styles/Tos.module.css";
 
 export default function Tos() {
   return (
-    <section className={`${tosstyles.tos} up-padding`}>
+    <section className={`${tosstyles.tos} uplift`}>
       <div className=" row">
         <div className={`${tosstyles.tos__container} container`}>
           <h1 className={tosstyles.tos__header}>Terms of Service</h1>

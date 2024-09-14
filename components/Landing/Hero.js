@@ -2,7 +2,7 @@ import herostyles from "../../styles/Hero.module.css";
 
 export default function Hero() {
   return (
-    <section className={`${herostyles.hero} up-padding`}>
+    <section className={`${herostyles.hero} `}>
       <div className={`${herostyles.hero__row} row`}>
         <div className={`${herostyles.hero__frame} container`}>
           <div className={herostyles.hero__left}>
