@@ -1,0 +1,21 @@
+.about__header {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero__video--lighting {
+  z-index: -997;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0) 71%
+  );
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
