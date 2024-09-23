@@ -1,7 +1,11 @@
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <section className="uplift">
+      <div className="row">
+        <div className="container">
+          <h1>About Us</h1>
+        </div>
+      </div>
+    </section>
   );
 }
