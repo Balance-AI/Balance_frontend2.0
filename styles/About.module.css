@@ -19,3 +19,45 @@
   right: 0%;
 }
 
+.home__heroheadline {
+  font-size: 11vw;
+  font-weight: 700;
+  line-height: 90%;
+}
+
+.home__hero-1,
+.home__hero-2,
+.home__hero-3,
+.home__hero-4 {
+  text-align: center;
+  color: white;
+}
+
+.home__hero1 {
+  opacity: 0.6;
+  letter-spacing: -0.025em;
+  font-size: 50%;
+  line-height: 90%;
+}
+
+.home__hero2 {
+  opacity: 0.6;
+  letter-spacing: -0.025em;
+  margin-top: -0.5vw;
+  margin-bottom: -0.5vw;
+  font-size: 65%;
+  line-height: 90%;
+}
+
+.home__hero3 {
+  opacity: 0.6;
+  letter-spacing: -0.025em;
+  margin-bottom: -0.5vw;
+  font-size: 80%;
+  line-height: 90%;
+}
+
+.home__hero4 {
+  letter-spacing: -0.02em;
+  line-height: 90%;
+}
