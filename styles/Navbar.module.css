@@ -110,17 +110,11 @@
 
 .nav__button {
   margin-left: 10px;
-  padding: 6px 12px;
-  font-weight: 400;
-  font-size: 13px;
-  border: 1.25px solid #000000;
-  border-radius: 4px;
-  background: #ffffff;
-  transition: all 0.1s ease;
 }
 
 .nav__buttonmid {
-  color: white;
+  color: #BB955F !important;
+  border: 1px solid #BB955F !important;
   background-color: black;
 }
 

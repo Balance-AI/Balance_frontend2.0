@@ -156,17 +156,17 @@ const Navbar = () => {
 
         <div className={navstyles["nav__button--container"]}>
           <button
-            className={`${navstyles.nav__button} bai__button--hover bai__button--focus`}
+            className={`${navstyles.nav__button} bai__button bai__button--white bai__button--hover bai__button--focus`}
           >
             Buy Now
           </button>
           <button
-            className={`${navstyles.nav__button} ${navstyles.nav__buttonmid} bai__button--hover bai__button--focus`}
+            className={`${navstyles.nav__button} ${navstyles.nav__buttonmid} bai__button bai__button--black bai__button--hover bai__button--focus`}
           >
             Start Free
           </button>
           <button
-            className={`${navstyles.nav__button} bai__button--hover bai__button--focus`}
+            className={`${navstyles.nav__button} bai__button bai__button--white bai__button--hover bai__button--focus`}
           >
             Sign Up
           </button>
