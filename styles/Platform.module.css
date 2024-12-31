@@ -1,0 +1,17 @@
+.platform {
+}
+
+.platform__use {
+  color: #bb955f;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.platform__h2 {
+  color: #1b3139;
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+}
