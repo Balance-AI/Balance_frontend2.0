@@ -16,19 +16,35 @@ const Platform = () => {
           </span>
           <div className={platformstyles.platform__boxes}>
             <div className={platformstyles.platform__box}>
-              <Image
-                src="/icon-succeed-with-ai.svg"
-                width={50}
-                height={50}
-              ></Image>
+              <figure className={platformstyles.platform__boxicon}>
+                <Image src="/icon-succeed-with-ai.svg" width={50} height={50} />
+              </figure>
               <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
               <p className={platformstyles.platform__p}>
                 BalanceAI helps you build, deploy, and manage AI models at
                 scale.
               </p>
             </div>
-            <div className={platformstyles.platform__box}>Boxie 1</div>
-            <div className={platformstyles.platform__box}>Boxie 1</div>
+            <div className={platformstyles.platform__box}>
+              <figure className={platformstyles.platform__boxicon}>
+                <Image src="/icon-succeed-with-ai.svg" width={50} height={50} />
+              </figure>
+              <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
+              <p className={platformstyles.platform__p}>
+                BalanceAI helps you build, deploy, and manage AI models at
+                scale.
+              </p>
+            </div>
+            <div className={platformstyles.platform__box}>
+              <figure className={platformstyles.platform__boxicon}>
+                <Image src="/icon-succeed-with-ai.svg" width={50} height={50} />
+              </figure>
+              <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
+              <p className={platformstyles.platform__p}>
+                BalanceAI helps you build, deploy, and manage AI models at
+                scale.
+              </p>
+            </div>
           </div>
         </div>
       </div>

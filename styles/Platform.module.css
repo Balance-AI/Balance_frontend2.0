@@ -1,11 +1,11 @@
 .platform {
-    background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 .platform__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .platform__use {
@@ -25,19 +25,39 @@
 }
 
 .platform__databring {
-    font-size: 20px;
-    margin-top: 36px;
-    /* color: #FFFFFF; */
+  font-size: 20px;
+  margin-top: 36px;
+  /* color: #FFFFFF; */
 }
 
 .platform__boxes {
-    /* color: white; */
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  /* color: white; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 96px;
 }
 
 .platform__box {
-    color: #FFFFFF;
-    width: calc(100% / 3);
+  color: #ffffff;
+  width: calc(100% / 3);
+}
+
+.platform__boxicon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.platform__h3 {
+  margin-top: 32px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.platform__p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 200;
 }
