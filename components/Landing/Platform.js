@@ -1,5 +1,6 @@
 import React from "react";
 import platformstyles from "../../styles/Platform.module.css";
+import Image from "next/image";
 
 const Platform = () => {
   return (
@@ -14,7 +15,18 @@ const Platform = () => {
             BalanceAI brings AI to your data to help you bring AI to the world
           </span>
           <div className={platformstyles.platform__boxes}>
-            <div className={platformstyles.platform__box}>Boxie 1</div>
+            <div className={platformstyles.platform__box}>
+              <Image
+                src="/icon-succeed-with-ai.svg"
+                width={50}
+                height={50}
+              ></Image>
+              <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
+              <p className={platformstyles.platform__p}>
+                BalanceAI helps you build, deploy, and manage AI models at
+                scale.
+              </p>
+            </div>
             <div className={platformstyles.platform__box}>Boxie 1</div>
             <div className={platformstyles.platform__box}>Boxie 1</div>
           </div>

@@ -1,4 +1,5 @@
 .platform {
+    background: #F3F3F3;
 }
 
 .platform__container {
@@ -14,7 +15,7 @@
 }
 
 .platform__h2 {
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
   margin-top: 32px;
   font-weight: 500;
   font-size: 40px;
@@ -26,7 +27,7 @@
 .platform__databring {
     font-size: 20px;
     margin-top: 36px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .platform__boxes {
