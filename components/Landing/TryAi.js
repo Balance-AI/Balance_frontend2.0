@@ -1,4 +1,4 @@
-import TryAIstyles from "../styles/TryAI.module.css";
+import TryAIstyles from "../../styles/TryAI.module.css";
 
 export default function TryAi() {
   return (
@@ -16,7 +16,7 @@ export default function TryAi() {
             <p className={TryAIstyles.TryAI__p}>
               Our AI serves as a personal Business Advisor clarifying all
               insights and allows users to request custom comparisons. We also
-              suggest potential investment strategies tp help boost profit and
+              suggest potential investment strategies to help boost profit and
               warn users of potential risks based on their personal business
               data & thousands of other successful businesses across all
               industries.

@@ -1,8 +1,8 @@
-import herostyles from "../styles/Hero.module.css";
+import herostyles from "../../styles/Hero.module.css";
 
 export default function Hero() {
   return (
-    <section className={herostyles.hero}>
+    <section className={`${herostyles.hero} `}>
       <div className={`${herostyles.hero__row} row`}>
         <div className={`${herostyles.hero__frame} container`}>
           <div className={herostyles.hero__left}>
@@ -30,10 +30,14 @@ export default function Hero() {
             </div>
           </div>
           <div className={herostyles.hero__right}>
-            <figure className={herostyles["hero__right--img"]}>
-              {/* <img src="/heroiphone.png" alt="Description of Image" /> */}
-              <img src="/heroiphone2.png" alt="Description of Image" />
-            </figure>
+            {/* <figure className={herostyles["hero__right--img"]}> */}
+            {/* <img src="/heroiphone.png" alt="Description of Image" /> */}
+            <img
+              className={`${herostyles["hero__right--img"]}`}
+              src="/heroiphone.png"
+              alt="Description of Image"
+            />
+            {/* </figure> */}
             <img
               className={herostyles.hero__taskbar}
               src="/herotaskbarimg.svg"

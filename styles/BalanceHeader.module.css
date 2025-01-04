@@ -1,0 +1,203 @@
+.balancefigure {
+  position: relative;
+  z-index: 0;
+}
+
+.balance {
+  min-height: 82.5vh;
+  /* position: relative; */
+  background: #f3f3f3;
+  /* background-image: url("/balanceheadermain.svg"); */
+  /* background-size: contain; */
+  /* background-position: 10% center; */
+  display: flex;
+  align-items: center;
+}
+
+.balance__row {
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.balanceheaderbox {
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 24.5%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  text-align: center;
+  width: 50%;
+}
+
+.header__lefthalf,
+.header__righthalf {
+  height: 100%;
+}
+
+.header__lefthalf {
+  width: 50%;
+}
+
+.header__righthalf {
+  width: 50%;
+}
+
+.header__h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+.header__p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.03em;
+  margin-top: 24px;
+}
+
+.header__caption--box {
+  margin-top: 24px;
+  padding: 24px;
+  backdrop-filter: blur(1px);
+  box-shadow: 2px 5px 16px -4px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  border-radius: 20px;
+}
+
+.header__caption--img {
+  width: 50px;
+  height: 50px;
+}
+
+.header__caption--top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.header__caption--p {
+  font-weight: 600;
+  font-size: 1.125;
+  line-height: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.header__caption--bottom {
+}
+
+.header__caption--getstarted {
+  background-color: #0078d4;
+  color: white;
+  margin-right: 8px;
+}
+
+.header__caption--account {
+  color: #004275;
+}
+
+.header__caption--getstarted,
+.header__caption--account {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  border: 2px solid #0078d4;
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+
+.demo__encap {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS */
+.balanceheaderbutton,
+.balanceheaderbutton2,
+.balanceheaderbutton3 {
+  top: 60%;
+  left: 25%;
+  /* position: absolute; */
+  z-index: 100;
+  appearance: button;
+  background-color: #020206;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid #4d4ae8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.075) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: middle;
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: #3733e5;
+  border-color: #3733e5;
+}
+
+.button-20:focus {
+  background-color: #413fc5;
+  border-color: #3e3bba;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 0.2rem;
+}
+
+.button-20:active {
+  background-color: #3e3bba;
+  background-image: none;
+  border-color: #3a38ae;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.button-20:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset,
+    rgba(104, 101, 235, 0.5) 0 0 0 0.2rem;
+}
+
+.button-20:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.balanceheaderbutton {
+  border: none;
+}
+
+.balanceheaderbutton2,
+.balanceheaderbutton3 {
+  width: 25%;
+  margin: 0 8px;
+  box-shadow: -1px 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.balanceheaderbutton3 {
+  border-color: gold;
+  background-color: white;
+  color: black;
+}

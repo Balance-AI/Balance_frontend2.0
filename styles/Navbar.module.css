@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  height: 80px;
-  background-color: #0f0f0f;
+  height: 40px;
+  background-color: #ffffff;
   position: fixed;
   width: 100%;
   box-shadow: 0px 2px 11px 0px #00061a;
@@ -22,19 +22,32 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1600px !important;
   padding: 0 24px;
+}
+
+.nav__lefthalf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__spacer {
+  margin: 0 24px 0 36px;
+  max-width: 1px;
+  height: 25px;
+  border: 1.25px solid black;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
+  color: #000000;
 }
 
 .nav__logo--img {
   margin-right: 1rem;
-  width: 3.5rem;
-  filter: invert(1);
+  width: 1.75rem;
 }
 
 .nav__logo--text {
@@ -48,24 +61,61 @@
 }
 
 .nav__link {
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
   margin: 12px;
   transition: all 0.1s ease;
+  cursor: pointer;
 }
 
 .nav__link:hover {
   color: #8e98ac;
 }
 
+.fachevdown {
+  margin-left: 5px;
+}
+
+.nav__link--toggulus:hover {
+  border-bottom: #000000 2px solid;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  /* left: 0; */
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+
+.dropdown__item {
+  padding: 10px 20px;
+}
+
+.dropdown__item a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown__item:hover {
+  background-color: #f1f1f1;
+}
+
 .nav__button {
   margin-left: 10px;
-  padding: 8px 20px;
-  font-size: 18px;
-  font-weight: 500;
-  border: 2px solid white;
-  border-radius: 99px;
-  background: rgb(0, 0, 0, 0.65);
-  color: white;
-  transition: all 0.1s ease;
+}
+
+.nav__buttonmid {
+  color: #BB955F !important;
+  border: 1px solid #BB955F !important;
+  background-color: black;
 }
 
 .nav__toggle {
@@ -86,7 +136,7 @@
 
 .nav__toggle__icon::before,
 .nav__toggle__icon::after {
-  content: '';
+  content: "";
   width: 25px;
   height: 2px;
   background-color: white;
@@ -141,8 +191,15 @@
 
 /* .nav__button--container {
 }
+*/
+.nav__link--analytics {
+  /* Targeted home class for navbar / inquire if confused   */
+  margin-right: 24px;
+  font-weight: 600;
+  font-size: 16px;
+}
 
-.nav__link--home {
-  /*   Targeted home class for navbar / inquire if confused   */
-  /* margin-right: 24px; */
-/* } */ 
+.nav__link--pbai {
+  font-size: 14px;
+  font-weight: 600;
+}

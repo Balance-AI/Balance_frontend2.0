@@ -1,0 +1,21 @@
+.tos {
+    height: 100%;
+}
+
+.tos__container {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.tos__header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.tos__item {
+    margin-bottom: 24px;
+}
+
+.tos__item--header {
+    margin-bottom: 8px;
+}

@@ -1,4 +1,4 @@
-import analyticsstyles from "../styles/Analytics.module.css";
+import analyticsstyles from "../../styles/Analytics.module.css";
 
 export default function Analytics() {
   return (
