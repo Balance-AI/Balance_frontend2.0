@@ -18,7 +18,9 @@
   display: flex;
   height: 100%;
   margin: 0 auto;
-  padding-right: 12%; 
+  max-width: 1600px;
+  padding: 0 24px;
+  width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -72,19 +74,20 @@
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: -0.05em;
+  font-size: 64px;
 }
 
 .header__p {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.75rem;
   letter-spacing: -0.07em;
   margin-top: 24px;
 }
 
 .header__caption--box {
-  margin-top: 35px;
-  padding: 28px;
+  margin-top: 36px;
+  padding: 24px;
   backdrop-filter: blur(1px);
   box-shadow: 2px 5px 16px -4px rgba(0, 0, 0, 0.75);
   width: 135%;
@@ -104,7 +107,7 @@
 
 .header__caption--p {
   font-weight: 600;
-  font-size: 1.375rem; /* Larger font size */
+  font-size: 1.4rem;
   line-height: 1.5rem;
   letter-spacing: -0.03em;
   word-wrap: break-word; /* Ensure long text doesn't overflow */
@@ -115,13 +118,11 @@
 }
 
 .header__caption--getstarted {
-  background-color:#f3f3f3;
-  color: black;
   margin-right: 8px;
 }
 
 .header__caption--account {
-  color:black ;
+  /* color: #004275; */
 }
 
 .header__caption--getstarted,
