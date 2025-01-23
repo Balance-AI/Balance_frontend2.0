@@ -22,7 +22,7 @@ export default function BalanceHeader() {
                 consolidate, visualize and execute on actionable insights.
               </p>
             </div>
-            <div className={balancestyles["header__caption--bottom"]}>
+            <div className={balancestyles["header__caption--bottom"]}>  
               <button className={balancestyles["header__caption--getstarted"]}>
                 Get started
               </button>
@@ -33,7 +33,10 @@ export default function BalanceHeader() {
           </div>
         </div>
         <div className={balancestyles.header__righthalf}>
-          <Image src="/macbookmockup.svg" width={500} height={500} />
+          <Image className={balancestyles.glowy__backdrop} src="/Ellipsebai.svg" width={1000} height={500} />
+          <Image className={balancestyles.righthalf__laptop} src="/macbookmockup.svg" width={500} height={500} />
+          {/* <Image src="/balaifone.svg" width={500} height={500} /> */}
+          <Image className={balancestyles.righthalf__goldfone} src="/goldframe.svg" width={500} height={500} />
         </div>
       </div>
     </section>

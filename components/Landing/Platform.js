@@ -21,8 +21,22 @@ const Platform = () => {
               </figure>
               <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
               <p className={platformstyles.platform__p}>
-                BalanceAI helps you build, deploy, and manage AI models at
-                scale.
+                Balance AI transcends automation—our platform learns, adapts,
+                and evolves to drive greater profits and deeper engagement for
+                your enterprise.
+              </p>
+            </div>
+            <div className={platformstyles.platform__box}>
+              <figure className={platformstyles.platform__boxicon}>
+                <Image src="/icon-succeed-with-ai.svg" width={50} height={50} />
+              </figure>
+              <h3 className={platformstyles.platform__h3}>
+                All your data, in one place
+              </h3>
+              <p className={platformstyles.platform__p}>
+                Connect all your trusted business data with your product data to
+                understand the real impact on your marketing efforts, finances,
+                support, NPS, and more.
               </p>
             </div>
             <div className={platformstyles.platform__box}>
@@ -31,18 +45,9 @@ const Platform = () => {
               </figure>
               <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
               <p className={platformstyles.platform__p}>
-                BalanceAI helps you build, deploy, and manage AI models at
-                scale.
-              </p>
-            </div>
-            <div className={platformstyles.platform__box}>
-              <figure className={platformstyles.platform__boxicon}>
-                <Image src="/icon-succeed-with-ai.svg" width={50} height={50} />
-              </figure>
-              <h3 className={platformstyles.platform__h3}>Succeed With AI</h3>
-              <p className={platformstyles.platform__p}>
-                BalanceAI helps you build, deploy, and manage AI models at
-                scale.
+                Break down silos by unifying all your key metrics across every
+                team into one, self-serve, platform simplifying analysis &
+                providing expert insight.
               </p>
             </div>
           </div>
