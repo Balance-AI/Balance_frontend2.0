@@ -13,7 +13,7 @@ html {
 
 body {
   color: white;
-  background-color: #0a0a0a;
+  background-color: #f3f3f3;
 }
 
 section {
@@ -117,4 +117,27 @@ video {
 
 .align-end {
   text-align: end;
+}
+
+.number-slide1,
+.number-slide2,
+.number-slide3,
+.number-slide4,
+.number-slide5,
+.number-slide6,
+.number-slide7 {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+}
+.keen-slider {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 22.5%,
+    rgb(0, 0, 0) 77.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  align-items: center;
+  width: 100%;
 }

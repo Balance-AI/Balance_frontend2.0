@@ -9,7 +9,7 @@
 }
 
 .platform__use {
-  color: #bb955f;
+  color: #FFB97F;
   text-transform: uppercase;
   text-align: center;
 }
@@ -47,6 +47,10 @@
 .platform__boxicon {
   max-width: 50px;
   max-height: 50px;
+}
+
+.platform__boxiconimg {
+  /* filter: brightness(3.5); */
 }
 
 .platform__h3 {
