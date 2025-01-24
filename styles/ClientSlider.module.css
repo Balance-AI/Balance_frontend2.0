@@ -19,3 +19,14 @@
   align-items: center;
   justify-content: center;
 } */
+
+
+.keenslider__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.support__crosstag {
+    font-size: 14px;
+    margin: 0 auto;
+}
