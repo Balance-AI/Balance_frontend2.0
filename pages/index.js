@@ -16,10 +16,10 @@ export default function Home() {
       <ClientSlider />
       <Prodinfo />
       <Hero />
-      <Supported />
-      <Analytics />
-      <Filler />
-      <TryAi />
+      {/* <Supported /> */}
+      {/* <Analytics /> */}
+      {/* <Filler /> */}
+      {/* <TryAi /> */}
     </>
   );
 }

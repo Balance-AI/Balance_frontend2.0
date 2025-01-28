@@ -22,7 +22,7 @@
 }
 
 .prod__use {
-  color: #BB955F;
+  color: #bb955f;
   text-transform: uppercase;
   text-align: center;
 }
@@ -48,11 +48,16 @@
   margin-right: 16px;
   border-radius: 20px;
   background-color: #eeede9;
-  transition: .1s all ease;
+  transition: 0.1s all ease;
+}
+
+.prodinfo__button.active {
+  background-color: #bb955f; /* Example: change background color */
+  color: #fff; /* Example: change text color */
 }
 
 .prodinfo__button:hover {
-  background-color: #BB955F;
+  background-color: #bb955f;
   color: white;
 }
 
@@ -73,21 +78,21 @@
 }
 
 .prodinfo__frontboard__leftbuttons {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 .prodinfo__frontboard__leftbutton,
 .prodinfo__frontboard__leftbutton2 {
-    padding: 12px 18px;
+  padding: 12px 18px;
 }
 
 .prodinfo__frontboard__leftbutton {
 }
 
 .prodinfo__frontboard__leftbutton2 {
-    font-weight: 300;
-    color: #BB955F;
+  font-weight: 300;
+  color: #bb955f;
 }
 
 .prodinfo__h3 {
