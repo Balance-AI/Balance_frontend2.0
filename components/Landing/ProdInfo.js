@@ -8,12 +8,14 @@ export default function Prodinfo() {
   const [fadeIn, setFadeIn] = useState(false);
 
   const handleButtonClick = (newContent) => {
-    setFadeIn(false);
-    setTimeout(() => {
-      setContent(newContent);
-      setActiveButton(newContent);
-      setFadeIn(true);
-    }, 0)
+    if (newContent !== content) {
+      setFadeIn(false);
+      setTimeout(() => {
+        setContent(newContent);
+        setActiveButton(newContent);
+        setFadeIn(true);
+      }, 0);
+    }
   };
 
   const contentData = {
@@ -319,10 +321,18 @@ export default function Prodinfo() {
               ))}
             </div>
             <div className={Prodstyles.prodinfo__frontboard}>
-              <div className={`${Prodstyles.prodinfo__frontboard__left} ${fadeIn ? "fade-in" : ""}`}>
+              <div
+                className={`${Prodstyles.prodinfo__frontboard__left} ${
+                  fadeIn ? "fade-in" : ""
+                }`}
+              >
                 {contentData[content].left}
               </div>
-              <div className={`${Prodstyles.prodinfo__frontboard__right} ${fadeIn ? "fade-in" : ""}`}>
+              <div
+                className={`${Prodstyles.prodinfo__frontboard__right} ${
+                  fadeIn ? "fade-in" : ""
+                }`}
+              >
                 {contentData[content].right}
               </div>
               {/* <div className={Prodstyles.prodinfo__frontboard__left}>
