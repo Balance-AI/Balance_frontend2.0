@@ -69,12 +69,12 @@
 
 .prodinfo__frontboard__left,
 .prodinfo__frontboard__right {
-  /* width: 50%; */
+  width: 50%;
 }
 
 .prodinfo__frontboard__left {
   padding-right: 64px;
-  width: 40%;
+  /* width: 40%; */
 }
 
 .prodinfo__frontboard__leftbuttons {
