@@ -14,10 +14,11 @@ html {
 body {
   color: white;
   background-color: #f3f3f3;
+  overflow-x: hidden;
 }
 
 section {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
