@@ -35,8 +35,8 @@ export default function BalanceHeader() {
         <div className={balancestyles.header__righthalf}>
           <Image className={balancestyles.glowy__backdrop} src="/Ellipsebai.svg" width={1000} height={500} />
           <Image className={balancestyles.righthalf__laptop} src="/macbookmockup.svg" width={500} height={500} />
-          {/* <Image src="/balaifone.svg" width={500} height={500} /> */}
-          <Image className={balancestyles.righthalf__goldfone} src="/goldframe.svg" width={500} height={500} />
+          <Image className={balancestyles.righthalf__guy} src="/headerguy.svg" width={550} height={550} />
+          {/* <Image className={balancestyles.righthalf__goldfone} src="/goldframe.svg" width={500} height={500} /> */}
         </div>
       </div>
     </section>

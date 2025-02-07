@@ -7,11 +7,13 @@ import BalanceHeader from "@/components/Landing/BalanceHeader";
 import Prodinfo from "@/components/Landing/ProdInfo";
 import Platform from "@/components/Landing/Platform";
 import ClientSlider from "@/components/Landing/ClientSlider";
+import NavigationTwo from "@/components/Landing/NavigationTwo";
 
 export default function Home() {
   return (
     <>
       <BalanceHeader />
+      <NavigationTwo />
       <Platform />
       <ClientSlider />
       <Prodinfo />

@@ -209,6 +209,14 @@
 .righthalf__laptop {
   z-index: 3;
   position: absolute;
+  top: -34px;
+}
+
+.righthalf__guy {
+  position: absolute;
+  top: 24px;
+  right: -205px;
+  z-index: 5;
 }
 
 .righthalf__goldfone {
