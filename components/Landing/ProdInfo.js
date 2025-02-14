@@ -62,7 +62,9 @@ export default function Prodinfo() {
           </div>
         </>
       ),
-      right: <Image src={"/AIimg.svg"} width={500} height={500} />,
+      right: (
+        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+      ),
     },
     Analytics: {
       left: (
@@ -106,9 +108,7 @@ export default function Prodinfo() {
           </div>
         </>
       ),
-      right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
-      ),
+      right: <Image src={"/AIimg.svg"} width={500} height={500} />,
     },
     Integrations: {
       left: (
@@ -302,8 +302,8 @@ export default function Prodinfo() {
           <div className={Prodstyles.prodinfo__stagelight}>
             <div className={Prodstyles.prodinfo__buttons}>
               {[
-                "AI",
                 "Analytics",
+                "AI",
                 "Integrations",
                 "Management",
                 "Governance",
