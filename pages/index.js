@@ -17,7 +17,7 @@ export default function Home() {
       <Platform />
       <ClientSlider />
       <Prodinfo />
-      <Hero />
+      {/* <Hero /> */}
       {/* <Supported /> */}
       {/* <Analytics /> */}
       {/* <Filler /> */}

@@ -63,7 +63,7 @@ export default function Prodinfo() {
         </>
       ),
       right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+        <Image src={"/AIflick.svg"} width={500} height={500} />
       ),
     },
     Analytics: {
@@ -152,7 +152,7 @@ export default function Prodinfo() {
         </>
       ),
       right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+        <Image src={"/Integrationsflick.svg"} width={500} height={500} />
       ),
     },
     Management: {
@@ -196,7 +196,7 @@ export default function Prodinfo() {
         </>
       ),
       right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+        <Image src={"/Managementflick.svg"} width={500} height={500} />
       ),
     },
     Governance: {
@@ -243,7 +243,7 @@ export default function Prodinfo() {
         </>
       ),
       right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+        <Image src={"/Governanceflick.svg"} width={500} height={500} />
       ),
     },
     "Data Storage": {
@@ -288,7 +288,7 @@ export default function Prodinfo() {
         </>
       ),
       right: (
-        <Image src={"/productscreen-static-ai.png"} width={500} height={500} />
+        <Image src={"/Dataflick.svg"} width={500} height={500} />
       ),
     },
   };
