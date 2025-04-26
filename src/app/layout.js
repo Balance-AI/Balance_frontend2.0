@@ -1,6 +1,6 @@
 import "@/app/globals.css"; // globals.css global stylesheet
-import Footer from "@/components/Landing/Footer";
-import Navbar from "@/components/Landing/Navbar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function RootLayout({ children }) {
   return (

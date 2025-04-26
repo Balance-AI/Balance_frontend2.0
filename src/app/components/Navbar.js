@@ -13,6 +13,7 @@ const Navbar = () => {
   const [isResourcesMenuOpen, setIsResourcesMenuOpen] = useState(false); // This is to toggle the Resources menu by using the state
   const dropdownRef = useRef(null);
 
+
   const toggleAboutMenu = () => {
     setIsAboutMenuOpen(!isAboutMenuOpen);
   };
