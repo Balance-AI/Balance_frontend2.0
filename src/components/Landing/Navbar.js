@@ -1,7 +1,7 @@
+'use client';
 import React, { useRef, useState } from "react";
 import Link from "next/link";
-import logo from "../../public/Logo.svg";
-import navstyles from "../../styles/Navbar.module.css";
+import navstyles from "@/styles/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useOutsideClick } from "@/hooks/useOutsideClick";

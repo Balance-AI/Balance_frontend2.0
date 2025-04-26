@@ -1,4 +1,4 @@
-import analyticspagestyles from "../../styles/AnalyticsPage.module.css";
+import analyticspagestyles from "@/styles/AnalyticsPage.module.css";
 
 export default function analyticspage() {
   return (

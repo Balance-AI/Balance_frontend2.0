@@ -1,5 +1,6 @@
+'use client';
 import React, { useState } from "react";
-import Prodstyles from "../../styles/Prodstyles.module.css";
+import Prodstyles from "@/styles/Prodstyles.module.css";
 import Image from "next/image";
 
 export default function Prodinfo() {

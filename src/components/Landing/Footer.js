@@ -1,6 +1,5 @@
 import Link from "next/link";
-import logo from "../../public/Logo.svg";
-import footerstyles from "../../styles/Footer.module.css";
+import footerstyles from "@/styles/Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 

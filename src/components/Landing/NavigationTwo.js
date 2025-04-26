@@ -1,4 +1,4 @@
-import navstyles from "../../styles/NavigationTwo.module.css";
+import navstyles from "@/styles/NavigationTwo.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
