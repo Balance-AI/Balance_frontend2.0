@@ -1,6 +1,5 @@
 import Link from "next/link";
-import logo from "../../public/Logo.svg";
-import fillerstyles from "../../styles/Filler.module.css";
+import fillerstyles from "@/styles/Filler.module.css";
 import Image from "next/image";
 
 export default function Filler() {

@@ -6,7 +6,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import supportedstyles from "../../styles/Supported.module.css";
+import supportedstyles from "@/styles/Supported.module.css";
 
 export default function Supported() {
   return (

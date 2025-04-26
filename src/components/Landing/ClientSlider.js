@@ -1,7 +1,8 @@
+'use client';
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import clientstyles from "../../styles/ClientSlider.module.css";
+import clientstyles from "@/styles/ClientSlider.module.css";
 
 // import "./styles.css";
 

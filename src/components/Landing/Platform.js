@@ -1,5 +1,5 @@
 import React from "react";
-import platformstyles from "../../styles/Platform.module.css";
+import platformstyles from "@/styles/Platform.module.css";
 import Image from "next/image";
 
 const Platform = () => {

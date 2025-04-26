@@ -1,4 +1,4 @@
-import tosstyles from "../../styles/Tos.module.css";
+import tosstyles from "@/styles/Tos.module.css";
 
 export default function Tos() {
   return (
