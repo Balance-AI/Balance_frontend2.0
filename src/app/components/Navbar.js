@@ -5,14 +5,14 @@ import navstyles from "@/styles/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // This is to toggle the menu by using the state
   const [isAboutMenuOpen, setIsAboutMenuOpen] = useState(false); // This is to toggle the About menu by using the state
   const [isClientMenuOpen, setIsClientMenuOpen] = useState(false); // This is to toggle the Client menu by using the state
   const [isResourcesMenuOpen, setIsResourcesMenuOpen] = useState(false); // This is to toggle the Resources menu by using the state
-  const dropdownRef = useRef(null);
-
+  const dropdownRef = useRef(null); //useRef is used to get the reference of the dropdown menu by using the ref attribute
 
   const toggleAboutMenu = () => {
     setIsAboutMenuOpen(!isAboutMenuOpen);
@@ -174,25 +174,27 @@ const Navbar = () => {
     //     </div>
     //   </div>
     // </nav>
-    <nav className="fixed top-0 w-full z-[99999] bg-white shadow-md flex justify-center h-10">
-      <div className="flex justify-between items-center w-full max-w-[1600px] px-6">
+    <nav className="flex justify-center mx-auto h-10 bg-white fixed w-full shadow-xl z-50">
+      <div className="flex justify-between items-center w-full max-w-screen-2xl px-6">
         {/* Left Half */}
         <div className="flex items-center">
           <Link href="/">
-            <figure className="flex items-center text-black cursor-pointer">
-              <img
+            <figure className="flex items-center text-black">
+              <Image
+                className="mr-4"
+                width={28}
+                height={28}
                 src="/Logo.svg"
-                className="mr-4 w-7 filter-invert-0"
-                alt=""
+                alt="Logo"
               />
               Balance AI
             </figure>
           </Link>
 
-          <div className="mx-6 h-6 border-l border-black" />
+          <div className="mx-6 h-6 border-l-2 border-black" />
 
           {/* Nav List */}
-          <ul className={`flex items-center ${isOpen ? "flex-col" : ""}`}>
+          <ul className={`hidden md:flex items-center ${isOpen ? "flex-col" : ""}`}>
             <li className="text-black font-semibold text-[16px] mx-3 cursor-pointer hover:text-gray-400">
               Analytics Suite
             </li>
@@ -202,7 +204,7 @@ const Navbar = () => {
 
             <li
               onClick={toggleAboutMenu}
-              className="relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center"
+              className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               About Balance AI
               <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
@@ -231,7 +233,7 @@ const Navbar = () => {
 
             <li
               onClick={toggleClientMenu}
-              className="relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center"
+              className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               Client Assistance
               <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
@@ -256,15 +258,12 @@ const Navbar = () => {
               )}
             </li>
 
-            <Link href="/contact">
-              <li className="text-black font-normal text-[13px] mx-3 cursor-pointer hover:text-gray-400">
-                Pricing
-              </li>
-            </Link>
-
+            <li className="text-black font-normal text-[13px] mx-3 cursor-pointer hover:text-gray-400">
+              Pricing
+            </li>
             <li
               onClick={toggleResourcesMenu}
-              className="relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center"
+              className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               Resources
               <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
@@ -292,13 +291,13 @@ const Navbar = () => {
 
         {/* Right Buttons */}
         <div className="hidden md:flex items-center">
-          <button className="ml-2 px-3 py-1 border border-black text-black text-[13px] font-normal rounded transition-all duration-300 hover:bg-black hover:text-white focus:ring-2 focus:ring-blue-300">
+          <button className="hidden xl:block ml-2 px-3 py-1 border border-black text-black text-sm font-normal rounded transition-all duration-300 hover:bg-black hover:text-white focus:ring-2 focus:ring-blue-300">
             Buy Now
           </button>
-          <button className="ml-2 px-3 py-1 border border-[#BB955F] text-[#BB955F] text-[13px] font-normal rounded bg-black transition-all duration-300 hover:bg-white hover:text-black focus:ring-2 focus:ring-blue-300">
+          <button className="ml-2 px-3 py-1 border border-[#BB955F] text-[#BB955F] text-sm font-normal rounded bg-black transition-all duration-300 hover:bg-white focus:ring-2 focus:ring-blue-300">
             Start Free
           </button>
-          <button className="ml-2 px-3 py-1 border border-black text-black text-[13px] font-normal rounded transition-all duration-300 hover:bg-black hover:text-white focus:ring-2 focus:ring-blue-300">
+          <button className="hidden xl:block ml-2 px-3 py-1 border border-black text-black text-sm font-normal rounded transition-all duration-300 hover:bg-black hover:text-white focus:ring-2 focus:ring-blue-300">
             Sign Up
           </button>
         </div>

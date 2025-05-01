@@ -227,8 +227,10 @@
 }
 
 .glowy__backdrop {
+  width: 100%;
   position: absolute;
-  z-index: 2;
+  z-index: -10000;
+  margin: 0px;
   left: -240px;
   top: 38px;
 }

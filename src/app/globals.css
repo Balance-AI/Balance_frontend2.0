@@ -3,19 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Encode+Sans:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  /* padding: 0; */
+  /* margin: 0; */
   font-family: "Inter", sans-serif;
-  color: #000000;
+  /* color: #000000; */
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
-  color: white;
-  background-color: #f3f3f3;
+  /* color: white; */
+  /* background-color: #f3f3f3; */
   overflow-x: hidden;
 }
 
@@ -29,21 +27,21 @@ a {
 }
 
 button {
-  border: none;
+  /* border: none; */
   cursor: pointer;
 }
 
 button,
 input {
-  font-size: 100%;
+  /* font-size: 100%; */
   line-height: inherit;
-  color: inherit;
+  /* color: inherit; */
   /* margin: 0px; */
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 ul {
   list-style: none;
