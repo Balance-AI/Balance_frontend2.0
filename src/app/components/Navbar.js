@@ -2,10 +2,9 @@
 import React, { useRef, useState } from "react";
 import Link from "next/link";
 import navstyles from "@/styles/Navbar.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
 import Image from "next/image";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // This is to toggle the menu by using the state
@@ -13,6 +12,11 @@ const Navbar = () => {
   const [isClientMenuOpen, setIsClientMenuOpen] = useState(false); // This is to toggle the Client menu by using the state
   const [isResourcesMenuOpen, setIsResourcesMenuOpen] = useState(false); // This is to toggle the Resources menu by using the state
   const dropdownRef = useRef(null); //useRef is used to get the reference of the dropdown menu by using the ref attribute
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen((prev) => !prev);
+  };
 
   const toggleAboutMenu = () => {
     setIsAboutMenuOpen(!isAboutMenuOpen);
@@ -190,11 +194,14 @@ const Navbar = () => {
               Balance AI
             </figure>
           </Link>
-
+          {/* divider */}
           <div className="mx-6 h-6 border-l-2 border-black" />
-
           {/* Nav List */}
-          <ul className={`hidden md:flex items-center ${isOpen ? "flex-col" : ""}`}>
+          <ul
+            className={`hidden md:flex items-center ${
+              isOpen ? "flex-col" : ""
+            }`}
+          >
             <li className="text-black font-semibold text-[16px] mx-3 cursor-pointer hover:text-gray-400">
               Analytics Suite
             </li>
@@ -207,7 +214,12 @@ const Navbar = () => {
               className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               About Balance AI
-              <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
+              <Image
+                src="/chevron-down-solid.svg"
+                className="inline ml-1 mb-1 w-3"
+                width={4}
+                height={4}
+              />
               {isAboutMenuOpen && (
                 <ul
                   ref={dropdownRef}
@@ -236,7 +248,12 @@ const Navbar = () => {
               className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               Client Assistance
-              <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
+              <Image
+                src="/chevron-down-solid.svg"
+                className="inline ml-1 mb-1 w-3"
+                width={4}
+                height={4}
+              />
               {isClientMenuOpen && (
                 <ul
                   ref={dropdownRef}
@@ -266,7 +283,12 @@ const Navbar = () => {
               className="hidden xl:block relative text-black font-normal text-[13px] mx-3 cursor-pointer hover:border-b-2 border-black flex items-center transition-all duration-100 ease-in-out"
             >
               Resources
-              <FontAwesomeIcon icon={faChevronDown} className="ml-1" />
+              <Image
+                src="/chevron-down-solid.svg"
+                className="inline ml-1 mb-1 w-3"
+                width={4}
+                height={4}
+              />
               {isResourcesMenuOpen && (
                 <ul
                   ref={dropdownRef}
@@ -288,8 +310,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
-        {/* Right Buttons */}
+        {/* three buttons */}
         <div className="hidden md:flex items-center">
           <button className="hidden xl:block ml-2 px-3 py-1 border border-black text-black text-sm font-normal rounded transition-all duration-300 hover:bg-black hover:text-white focus:ring-2 focus:ring-blue-300">
             Buy Now
@@ -301,7 +322,19 @@ const Navbar = () => {
             Sign Up
           </button>
         </div>
+        {/* mobile menu open */}
+        <button
+          onClick={toggleMobileMenu}
+          className="md:hidden text-black text-2xl focus:outline-none"
+        >
+          <Image src="/bars-solid.svg" alt="Menu Icon" width={24} height={24} />
+        </button>
       </div>
+      {/* mobile menu */}
+      <MobileMenu
+        isMobileMenuOpen={isMobileMenuOpen}
+        toggleMobileMenu={toggleMobileMenu}
+      />
     </nav>
   );
 };
