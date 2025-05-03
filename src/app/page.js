@@ -1,13 +1,13 @@
-import Analytics from "@/components/Landing/Analytics";
-import Hero from "@/components/Landing/Hero";
-import Supported from "@/components/Landing/Supported";
-import Filler from "@/components/Landing/Filler";
-import TryAi from "@/components/Landing/TryAi";
-import BalanceHeader from "@/components/Landing/BalanceHeader";
-import Prodinfo from "@/components/Landing/ProdInfo";
-import Platform from "@/components/Landing/Platform";
-import ClientSlider from "@/components/Landing/ClientSlider";
-import NavigationTwo from "@/components/Landing/NavigationTwo";
+// import Analytics from "@/app/components/Analytics";
+// import Hero from "@/app/components/Hero";
+// import Supported from "@/app/components/Supported";
+// import Filler from "@/app/components/Filler";
+// import TryAi from "@/app/components/TryAi";
+import BalanceHeader from "@/app/components/BalanceHeader";
+import Prodinfo from "@/app/components/ProdInfo";
+import Platform from "@/app/components/Platform";
+import ClientSlider from "@/app/components/ClientSlider";
+import NavigationTwo from "@/app/components/NavigationTwo";
 
 export default function Home() {
   return (
